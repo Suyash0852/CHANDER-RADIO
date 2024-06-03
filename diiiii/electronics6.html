@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramji Electronics and Furniture - Product 1</title>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      background-color: #FFFFE0;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #232f3e;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      background-color: #232f3e;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    section {
+      max-width: 90%;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1em;
+      background-color: #232f3e;
+      color: #fff;
+    }
+
+    .product-details {
+      text-align: center;
+    }
+
+    .product-details img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-details h2 {
+      color: #333;
+      font-size: 2.5em;
+      margin-bottom: 15px;
+    }
+
+    .product-details p {
+      color: #555;
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .product-details button {
+      background-color: #ff9900;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .additional-info {
+      text-align: left;
+      margin-top: 30px;
+    }
+
+    .additional-info h3 {
+      color: #333;
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+
+    .additional-info ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .additional-info li {
+      color: #555;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+  </style>
+  <!-- Your existing head content here -->
+</head>
+
+<body>
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><B>CHANDER RADIO</B></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link disabled" href="electronics.html">Electronics</a>
+      </li>
+      <li class="nav-item">
+         <a href="cart.html"><B>&#128722;</B><span id="cartCount">0</span></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+  <section class="product-details">
+     <img src="elements\6-removebg-preview (1).png" alt="Electronics Product 1" />
+    <h2>Clubx Tracker Drone with Basic Quality Camera with Remote Control & Mobile App Flying Option (Tracker Drone)</h2>
+    <p>kids & adults drone for beginners is ideal for people interested in pursuing flying drones as a hobby or pastime. The portable mini drone with camera has all the features you need in a beginner drone. It has multiple intelligent functions like one-key take-off, gesture control, along with headless, landing, follow me modes that allow you to take clear HD images/videos using the 4K HD camera while simultaneously controlling and flying it like an absolute pro. With the included user manual and everything else, you’ll know everything about the small drone with camera that you’ll want to know. Thanks to its smart foldable design, you can keep and take the drone camera with you and capture surreal photographs and videos whenever you are on the go</p>
+    <p><b>Price:  ₹6,999</b></p>
+    <button class="add-to-cart" onclick="addToCart('Clubx Tracker Drone', 6999)">Add to Cart</button>
+
+    <div class="additional-info">
+      <h3>Key Features:</h3>
+      <ul>
+        <li>High-definition display</li>
+        <li>Smart functionality for streaming</li>
+        <li>Multiple HDMI and USB ports</li>
+        <li>Sleek design</li>
+      </ul>
+
+      <h3>Specifications:</h3>
+      <ul>
+        <li>Battery Cell Composition : Lithium Ion</li>
+        <li>Battery Capacity : 1800 Milliamp Hours</li>
+        <li>Maximum Range : 50 metres</li>
+        <li>Connectivity Technology : USB</li>
+      </ul>
+    </div>
+  
+
+ 
+
+    <button class="add-to-cart" onclick="addToCart('Clubx Tracker Drone', 6999)">Add to Cart</button>
+    <button class="buy-now" onclick="buyNow('Clubx Tracker Drone', 6999)">Buy Now</button>
+    <!-- Additional buttons, functions, or elements as needed -->
+  </section>
+
+   <footer class="bg-dark text-light text-center py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <h5>Contact Us</h5>
+          <p>Email:chandershops@hotmail.com</p>
+          <p>Phone: +123 456 7890</p>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <h5>Follow Us</h5>
+          <a href="#" class="text-light">Facebook</a><br>
+          <a href="#" class="text-light">Twitter</a><br>
+          <a href="#" class="text-light">Instagram</a>
+        </div>
+        <div class="col-lg-4">
+          <h5>Newsletter</h5>
+          <p>Subscribe to our newsletter for updates.</p>
+          <form>
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Enter your email">
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-outline-light">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <p>&copy; 2024 CHANDER RADIO. All rights reserved.</p>
+    </div>
+  </footer>
+
+    
+
+  <script>
+    // Your existing script content here
+     function addToCart(productName, productPrice) {
+      // Retrieve existing cart items from local storage
+      let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+
+      // Add the new item to the cart
+      cartItems.push({ name: productName, price: productPrice });
+
+      // Save the updated cart items to local storage
+      localStorage.setItem('cartItems', JSON.stringify(cartItems));
+
+      // Update the cart count on the page
+      updateCartCount();
+
+      // Optionally, you can display an alert or perform other actions
+      alert(`Added ${productName} to the cart!`);
+    }
+
+    // Function to update the cart count on the page
+    function updateCartCount() {
+      const cartCountElement = document.getElementById('cartCount');
+      if (cartCountElement) {
+        // Retrieve cart items from local storage and update the count
+        const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+        cartCountElement.innerText = cartItems.length;
+      }
+    }
+
+    // Ensure the cart count is updated on page load
+    updateCartCount();
+    function buyNow(productName, productPrice) {
+      // Retrieve existing cart items from local storage
+      let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+
+      // Add the new item to the cart
+      cartItems.push({ name: productName, price: productPrice });
+
+      // Save the updated cart items to local storage
+      localStorage.setItem('cartItems', JSON.stringify(cartItems));
+
+      // Update the cart count on the page
+      updateCartCount();
+
+      // Optionally, you can navigate to a checkout page or perform other actions
+      alert(`Buy Now: ${productName} - $${productPrice}`);
+    }
+  </script>
+</body>
+
+</html>
